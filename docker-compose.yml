@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   web:
     build:
@@ -14,4 +12,4 @@ services:
       - .:/app
       - /app/node_modules
     command: pnpm dev
-    restart: unless-stopped 
+    restart: unless-stopped
